@@ -1,0 +1,47 @@
+.banner-section {
+    z-index: 1;
+    min-height: 900px;
+    display: flex;
+    background: linear-gradient(rgba(3, 1, 10, .5), rgba(3, 1, 10, .5)), url(../images/xhome-banner.jpeg) no-repeat scroll center center;
+    background-size: cover;
+}
+
+.banner-section .banner-inner {
+    width: 100%;
+    display: flex;
+}
+
+.banner-section .banner-inner .container {
+    vertical-align: middle;
+    align-self: center;
+}
+
+.banner-section .banner-inner .banner-content {
+    color: #fff;
+    vertical-align: middle;
+    align-self: center;
+    text-align: center;
+}
+
+.banner-section .banner-inner .banner-content .upper-text {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fdbb00;
+}
+
+.banner-section .banner-inner .banner-content p {
+    color: #f9f9ff;
+    max-width: 680px;
+    margin: 0 auto 45px;
+}
+
+.banner-section .banner-inner .banner-content h2 {
+    color: #fff;
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

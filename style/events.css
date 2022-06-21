@@ -1,0 +1,70 @@
+.event-section {
+    padding-bottom: 70px;
+}
+
+.event-section .single-event {
+    margin-bottom: 60px;
+}
+
+.event-section .single-event figure {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.event-section .single-event figure img {
+    transition: all 300ms linear 0s;
+}
+
+.event-section .single-event .content-wrapper .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.event-section .single-event .content-wrapper .count-time h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.event-section .single-event .content-wrapper .title a {
+    color: #222;
+}
+
+.event-section .single-event .content-wrapper .primary-btn {
+    line-height: 38px;
+}
+
+.event-section .single-event:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+.event-section .single-event:hover .title a {
+    color: #60bc0f;
+}
+
+.event-section .single-event:hover .primary-btn {
+    background: #fdbb00;
+    border: 1px solid #fdbb00;
+    color: #222;
+}
+
+@media (max-width: 1024px) {
+    .event-section .single-event .content-wrapper .title {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .event-section .single-event .content-wrapper {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .event-section .single-event .content-wrapper .count-time {
+        display: none!important;
+    }
+}

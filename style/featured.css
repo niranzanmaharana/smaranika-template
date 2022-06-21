@@ -1,0 +1,76 @@
+.features-section {
+    padding-bottom: 100px;
+}
+
+.features-section .card {
+    border-radius: 0;
+    border: 0;
+    transition: all 300ms linear 0s;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.features-section .card .card-body {
+    padding: 0;
+}
+
+.features-section .card figure {
+    overflow: hidden;
+    margin: 0;
+}
+
+.features-section .card .card-img-top {
+    border-radius: 0;
+}
+
+.features-section .card figure img {
+    transition: all 300ms linear 0s;
+}
+
+.features-section .card .card-inner-body {
+    padding: 40px 30px;
+}
+
+.features-section .card .card-inner-body h4 {
+    font-size: 20px;
+}
+
+.features-section .card .card-text {
+    margin-bottom: 0;
+}
+
+.features-section .card .raised-goal {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.features-section .card .raised-goal span {
+    color: #60bc0f;
+}
+
+.features-section .card .donation .primary-btn {
+    line-height: 34px;
+    padding: 0 20px;
+}
+
+.features-section .card .donation span {
+    color: #60bc0f;
+}
+
+.features-section .card:hover {
+    box-shadow: 0 12px 40px rgb(153 153 153 / 20%);
+}
+
+.features-section .card:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+.features-section .card:hover .donation .primary-btn {
+    background: #fdbb00;
+    color: #000;
+    border: 1px solid #fdbb00;
+}

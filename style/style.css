@@ -1,0 +1,72 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777;
+}
+
+body {
+    margin: 0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: #222;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.main-title h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.main-title p{
+    margin-bottom: 0;
+    max-width: 570px;
+    margin: auto;
+}
+
+.section-gap {
+    padding: 130px 0;
+}
+
+.rounded {
+    border-radius: 0.25rem!important;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+@media (max-width: 991px) {
+    .main-title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-title h2 {
+        font-size: 30px;
+    }
+
+    .section-gap {
+        padding: 70px 0;
+    }
+}

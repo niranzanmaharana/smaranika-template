@@ -1,0 +1,33 @@
+.section-gap-bottom {
+    padding-bottom: 120px;
+}
+
+.about-section .about-left {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.about-section .about-right {
+    padding: 110px 60px;
+    background: #fff;
+    margin-top: 70px;
+    margin-left: -40px;
+    z-index: 2;
+    box-shadow: 0 5px 40px rgb(153 153 153 / 20%);
+}
+
+.about-section .about-thumb {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.about-section .about-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.about-section .about-content p:last-of-type {
+    margin-bottom: 0;
+}
+.about-section .about-content .primary-btn {
+    margin-top: 35px;
+}
