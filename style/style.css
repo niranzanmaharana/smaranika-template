@@ -46,12 +46,21 @@ h1, h2, h3, h4, h5, h6 {
     padding: 130px 0;
 }
 
+.section-gap-top {
+    padding: 130px 0;
+}
+
 .rounded {
     border-radius: 0.25rem!important;
 }
 
 input:focus {
     outline: none;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
 }
 
 

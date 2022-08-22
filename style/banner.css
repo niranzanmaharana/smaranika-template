@@ -6,6 +6,12 @@
     background-size: cover;
 }
 
+.shorten {
+    position: relative;
+    z-index: 1;
+    min-height: 500px;
+}
+
 .banner-section .banner-inner {
     width: 100%;
     display: flex;

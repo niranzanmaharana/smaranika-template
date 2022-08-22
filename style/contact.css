@@ -1,61 +1,117 @@
-.subscribe-area {
-    background: #60bc0f;
-    padding: 42px 40px;
+.mapBox {
+    height: 420px;
+    margin-bottom: 80px;
+}
+
+.contact-info .info-item {
     position: relative;
-    margin-bottom: -67px;
-    z-index: 9999;
+    padding-left: 45px;
 }
 
-.subscribe-area h1 {
-    font-size: 36px;
+.contact-info .info-item i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #60bc0f;
+    font-weight: 600;
+}
+
+.contact-info .info-item h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    font-weight: bold;
     margin-bottom: 0px;
+    color: #222222;
 }
 
-.subscribe-area .subscribe-form input {
-    min-width: 300px;
-    background: #ffffff;
-    border-radius: 5px;
-    border: 0px;
+.contact-info .info-item p {
     font-size: 14px;
-    padding: 12px 20px;
+    line-height: 24px;
+    padding: 2px 0px;
+    color: #777777;
 }
 
-@media (max-width: 767px) {
-    .subscribe-area {
-        padding: 40px 15px;
-    }
+.contact-info .info-item h6 a {
+    color: #222222;
+}
 
-    .subscribe-area .subscribe-form input[type="email"] {
-        margin-bottom: 15px;
-        width: 100%;
-    }
+.contact-form .form-group {
+    margin-bottom: 10px;
+}
 
-    .subscribe-area .subscribe-form button {
-        width: 100%;
-        margin-left: 0px !important;
-    }
+.contact-form .form-group .form-control {
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px;
+}
+
+.contact-form .form-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-form .form-group textarea.form-control {
+    height: 134px;
+}
+
+.dismissButton {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px;
+}
+
+.gm-control-active>img:nth-child(1) {
+    display: block;
+}
+
+.gm-style img {
+    max-width: none;
+}
+
+.gm-control-active>img {
+    box-sizing: content-box;
+    display: none;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gm-style .gm-style-cc a,
+.gm-style .gm-style-cc button,
+.gm-style .gm-style-cc span {
+    outline-offset: 3px;
+}
+
+.gm-style .gm-style-cc a,
+.gm-style .gm-style-cc button,
+.gm-style .gm-style-cc span,
+.gm-style .gm-style-mtc div {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.gm-style .gmnoscreen,
+.gmnoscreen {
+    display: none;
 }
 
 @media (max-width: 991px) {
-    .subscribe-area {
-        background: #60bc0f;
-        margin-bottom: 70px;
-        padding: 50px 40px;
-    }
-
-    .subscribe-area .d-flex {
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    .subscribe-area h1 {
-        margin-bottom: 20px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1199px) {
-    .subscribe-area h1 {
-        font-size: 30px;
+    .contact-info {
+        margin-bottom: 50px;
     }
 }
